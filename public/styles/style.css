@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Recursive', sans-serif;
+}
+
+body {
+    background-color: #FB6B6B;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+.escondido {
+    display: none;
+}
