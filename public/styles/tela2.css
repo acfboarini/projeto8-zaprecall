@@ -9,11 +9,21 @@
     display: flex;
     align-items: center;
     margin-top: 19px;
+    margin-bottom: 40px;
 }
 
-/*.tela2 section.conteudo {
-
-}*/
+.tela2 section article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    width: 182px;
+    height: 40px;
+    margin-top: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
 
 .tela2 img {
     width: 26px;
