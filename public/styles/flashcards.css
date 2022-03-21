@@ -1,6 +1,7 @@
 .tela2 article {
     margin-top: 25px;
     position: relative;
+    width: 300px;
 }
 
 .tela2 .normal,
@@ -9,7 +10,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 6px;
-    width: 300px;
     height: 40px;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
@@ -29,7 +29,6 @@
 
 .tela2 .frente,
 .tela2 .verso {
-    width: 300px;
     height: 80px; 
     padding: 6px;
     background: #FFFFD5;
@@ -87,4 +86,15 @@ article.amarelo {
 
 article.verde {
     color: #2FBE34;
+}
+
+@media(min-width: 650px) {
+    .tela2 article {
+        width: 560px;
+    }  
+    
+    .tela2 article .opcoes {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
