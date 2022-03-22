@@ -7,11 +7,11 @@ body {
     background-color: #FB6B6B;
 }
 
-.tela2 * {
+.game * {
     font-family: 'Recursive', sans-serif;
 }
 
-.tela1 h1 , .tela2 h1{
+.inicio h1 , .game h1{
     font-family: 'Righteous', cursive;
 }
 

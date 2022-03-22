@@ -5,7 +5,7 @@ import Main from "./main/Main";
 import Footer from "./footer/Footer";
 import Deck from "./Deck";
 
-export default function Tela2() {
+export default function Game() {
     const [contador, setContador] = React.useState(0);
     const [icones, setIcone] = React.useState([]);
 
@@ -20,7 +20,7 @@ export default function Tela2() {
     let flashcards = Deck();
 
     return (
-        <div className="tela2">
+        <div className="game">
             <Header/>
             <Main flashcards={flashcards} aumentaContador={aumentaContador} adicionaIcone={adicionaIcone}/>
             <Footer contador={contador} icones={icones} qtdCards={flashcards.length}/>

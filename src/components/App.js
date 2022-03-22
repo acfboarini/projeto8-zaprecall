@@ -1,9 +1,9 @@
-import Tela1 from "./tela1/Tela1";
+import Inicio from "./tela_inicio/Inicio";
 
 export default function App() {
     return (
         <>
-            <Tela1/>
+            <Inicio/>
         </>
     );
 }

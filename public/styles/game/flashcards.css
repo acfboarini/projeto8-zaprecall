@@ -1,11 +1,11 @@
-.tela2 article {
+.game article {
     margin-top: 25px;
     position: relative;
     width: 300px;
 }
 
-.tela2 .normal,
-.tela2 .respondido {
+.game .normal,
+.game .respondido {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     border-radius: 5px;
 }
 
-.tela2 .normal button {
+.game .normal button {
     background-color: white;
 }
 
@@ -27,8 +27,8 @@
     right: 1px;
 }
 
-.tela2 .frente,
-.tela2 .verso {
+.game .frente,
+.game .verso {
     height: 80px; 
     padding: 6px;
     background: #FFFFD5;
@@ -36,7 +36,7 @@
     border-radius: 5px;
 }
 
-.tela2 .verso {
+.game .verso {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -89,11 +89,11 @@ article.verde {
 }
 
 @media(min-width: 650px) {
-    .tela2 article {
+    .game article {
         width: 560px;
     }  
     
-    .tela2 article .opcoes {
+    .game article .opcoes {
         display: flex;
         justify-content: space-evenly;
     }

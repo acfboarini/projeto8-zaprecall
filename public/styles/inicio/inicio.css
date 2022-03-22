@@ -1,4 +1,4 @@
-.tela1 {
+.inicio {
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -6,16 +6,16 @@
     justify-content: center;
 }
 
-.tela1 img {
+.inicio img {
     width: 55px;
 }
 
-.tela1 h1 {
+.inicio h1 {
     color: white;
     font-size: 25px;
 }
 
-.tela1 button {
+.inicio button {
     width: 141px;
     height: 31px;
     background: #FFFFFF;

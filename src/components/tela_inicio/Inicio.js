@@ -1,7 +1,7 @@
 import React from "react";
-import Tela2 from "./../tela2/Tela2";
+import Game from "../tela_game/Game";
 
-export default function Tela1() {
+export default function Inicio() {
 
     const [status, setStatus] = React.useState(true);
 
@@ -10,13 +10,13 @@ export default function Tela1() {
             <Main callback={() => setStatus(false)}/>
         );
     }else{
-        return <Tela2/>
+        return <Game/>
     }
 }
 
 function Main({callback}) {
     return (
-        <div className="tela1">
+        <div className="inicio">
             <img src="./images/logo.png" alt=""/>
             <h1>ZapRecall</h1>
             <button onClick={() => callback()}>Iniciar Recall!</button>
