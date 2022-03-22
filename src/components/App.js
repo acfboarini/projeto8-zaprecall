@@ -1,4 +1,4 @@
-import Tela1 from "./Tela1";
+import Tela1 from "./tela1/Tela1";
 
 export default function App() {
     return (

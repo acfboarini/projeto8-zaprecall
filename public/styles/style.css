@@ -7,6 +7,14 @@ body {
     background-color: #FB6B6B;
 }
 
-h1 {
+.tela2 * {
+    font-family: 'Recursive', sans-serif;
+}
+
+.tela1 h1 , .tela2 h1{
     font-family: 'Righteous', cursive;
+}
+
+strong {
+    font-weight: 700;
 }

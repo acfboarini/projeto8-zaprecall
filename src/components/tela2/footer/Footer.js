@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer({contador, icones, qtdCards}) {
+export default function Footer({contador, icones, qtdCards}) {
 
     let texto = null;
 
@@ -8,13 +8,13 @@ function Footer({contador, icones, qtdCards}) {
         if(validaRespostas(icones)){
             texto = 
             <>
-                <h4>Parabéns!</h4>
+                <h4><strong>Parabéns!</strong></h4>
                 <p>Você não esqueceu de nenhum flashcard!</p>
             </>
         }else{
             texto = 
             <>
-                <h4>Putz...</h4>
+                <h4><strong>Putz...</strong></h4>
                 <p>Ainda faltam alguns...</p>
                 <p>Mas não desanime!</p>
             </> 
@@ -26,13 +26,14 @@ function Footer({contador, icones, qtdCards}) {
             <div className="texto">{texto}</div>
             <div>
                 <span>{contador}</span>/
-                <span>4</span> Concluidos
+                <span>{qtdCards}</span> Concluídos
             </div>
 
             <div>
-                {icones.map(icone => {
+                {icones.map((icone, index) => {
+                    const key = `icone${index}`;
                     return (
-                        <span className={icone}>
+                        <span className={icone} key={key}>
                             <ion-icon name={icone}></ion-icon>
                         </span>
                     );
@@ -51,5 +52,3 @@ function validaRespostas(icones) {
     });
     return validar;
 }
-
-export default Footer;

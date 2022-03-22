@@ -1,11 +1,9 @@
 
-function Topo() {
+export default function Header() {
     return (
-        <section className="topo">
+        <header>
             <img src="./images/logo-pequeno.png" alt=""/>
             <h1>ZapRecall</h1>
-        </section>
+        </header>
     );
 }
-
-export default Topo;
